@@ -1,0 +1,8 @@
+# 生产(部署到服务器上对外提供服务)配置
+server:
+  # 端口号
+  port: 8080
+# 不开启 swagger
+springdoc:
+  api-docs:
+    enabled: false

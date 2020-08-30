@@ -1,0 +1,19 @@
+# 开发环境配置
+server:
+  # 端口号
+  port: 8080
+  servlet:
+    context-path: /
+springdoc:
+  api-docs:
+    # 开启文档
+    enabled: true
+  # 扫描的包名
+  packages-to-scan: com.example.openapi
+  # 扫描的方法路径
+  paths-to-match: /api/v1/**
+  # 自定义接口文档的地址
+  swagger-ui:
+    path: /doc
+
+
